@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700');
+*{ 
+    background-color:black;
+    font-family: Quicksand;
+}
+
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+
+.navigation ul {
+    
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation ul li a{
+   color:#c894fc;
+   padding: .5em;
+   text-decoration: none;
+   
+   
+  
+}
+
+.navigation ul li a:hover{
+    color:white;
+    padding: .5em;
+    text-decoration: none;
+
+    
+   
+ }
+.navigation ul li{
+    display: inline;
+    text-align: center;
+}
+
+
+.container1{
+    color:#c894fc;
+    text-align: center;
+    padding: 1em;
+}
+
+
+.container2{
+    color:#c894fc;
+    text-align: center;
+    padding: 1em;
+}
+
+
+p.colored-gradientblue, p.colored-gradientorange {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px; /* This makes it rounded */
+    border: 3px solid #c894fc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Blue gradient */
+.colored-gradientblue {
+    background: linear-gradient(90deg, #A9FE81, #A981FE);
+}
+
+/* Orange gradient */
+.colored-gradientorange {
+    background: linear-gradient(90deg, #AB83FE, #FBAE96);
+}
+
+.contactContainer{
+    color:#c894fc;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lipic{
+    width: 30px;
+    height: 30px;
+}
+.linkedin-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+    margin-top: 10px; /* Space between email and LinkedIn */
+}
+
+.linkedin-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.lipic {
+    width: 30px; /* Keep existing size */
+    height: 30px; /* Keep existing size */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.download-button{
+background-color: #c894fc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.download-button:hover {
+  background-color: #a981fe;
+}
