@@ -122,3 +122,44 @@ background-color: #c894fc;
 .download-button:hover {
   background-color: #a981fe;
 }
+.projectHeader{
+    color:#c894fc;
+    text-align: center;
+    padding: 1em;
+}
+
+.projectContainer{
+    color:#c894fc;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.project1 p, .project2 p, .project3 p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.project1 img, .project2 img, .project3 img{
+    max-width: 65%; 
+    height: auto; 
+}
+
+
+.project1, .project2, .project3 {
+    color: #c894fc;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid #c894fc;
+    height: 200px; 
+    width: 300px;  
+    box-sizing: border-box; 
+    overflow: hidden; 
+    display: inline-block; 
+    vertical-align: top; 
+}
