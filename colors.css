@@ -151,6 +151,7 @@ background-color: #c894fc;
 }
 
 
+
 .project1, .project2, .project3 {
     color: #c894fc;
     text-align: center;
@@ -162,4 +163,63 @@ background-color: #c894fc;
     overflow: hidden; 
     display: inline-block; 
     vertical-align: top; 
+}
+
+.project-content{
+    color:#c894fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    justify-content: center;
+}
+
+.requirements{
+    color:#c894fc;
+    text-align: center  ;
+}
+
+.index-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.requirement-one, .requirement-two, .requirement-three {
+    color: #c894fc;
+    text-align: center;
+    padding: 1em;
+    height: 400px; 
+    width: 250PX;
+    display: grid; place-items: center;
+   
+}
+
+.requirement-one img, .requirement-two img, .requirement-three img{
+    max-width: 150%;
+    height: auto;
+}
+
+
+.requirement-one p, .requirement-two p, .requirement-three p{
+    margin: 5px 0;        
+    padding: 0 10px;       
+    text-align: center;
+    font-size: 15px;       
+    line-height: 1.6;      
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+ 
+}
+
+ .step-one, .step-two, .step-three, .step-four, .step-five , .step-six{
+    color: #c894fc;
+    text-align: center;
+    padding: 1em;
+    height: 50% ;
+    width: 50%;
+    display: grid; place-items: center;
+ }
+.step-one img, .step-two img, .step-three img, .step-four img, .step-five img, .step-six img{
+    max-width: 100%;
+    height: auto;
 }
