@@ -211,7 +211,7 @@ background-color: #c894fc;
  
 }
 
- .step-one, .step-two, .step-three, .step-four, .step-five , .step-six{
+ .step-one, .step-two, .step-three, .step-four, .step-five , .step-six , .step-sixpoint1, .step-seven , .step-eight , .step-nine {
     color: #c894fc;
     text-align: center;
     padding: 1em;
@@ -219,7 +219,7 @@ background-color: #c894fc;
     width: 50%;
     display: grid; place-items: center;
  }
-.step-one img, .step-two img, .step-three img, .step-four img, .step-five img, .step-six img{
+.step-one img, .step-two img, .step-three img, .step-four img, .step-five img, .step-six img, .step-sixpoint1 img,.step-seven img ,.step-eight img ,.step-nine img{
     max-width: 100%;
     height: auto;
 }
